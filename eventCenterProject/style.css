@@ -29,7 +29,7 @@ main section nav ul li a {
   color: #264653;
 }
 
-main section nav ul li a :hover {
+main section nav ul li a:hover {
   transition: 0.3s ease-in-out;
   color: #e9c46a;
 }
@@ -101,6 +101,11 @@ main section nav ul li a :hover {
 
 .middle-images {
   border-radius: 14px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 p {
@@ -204,5 +209,28 @@ p {
     font-size: 13px;
     padding: 20px;
     order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .nav-links li {
+    border-bottom: 1px solid #2a9d8f;
+  }
+
+  body {
+    height: auto;
   }
 }

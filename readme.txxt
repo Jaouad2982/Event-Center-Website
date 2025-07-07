@@ -1,0 +1,68 @@
+# 🎉 Community Fair Website
+
+A colorful, responsive website created for a **local community fair**, designed to showcase upcoming events, food menus, contact info, and the event location — all in a friendly and engaging style.
+
+---
+
+## 🌐 Live Sections
+
+- **Home** – Overview and hero banner
+- **Events** – List of featured activities and schedules
+- **Menu** – Illustrated food and drink options
+- **Location** – Map or address details
+- **Contact** – Contact form for questions or volunteering
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** & **CSS3** – Semantic layout and responsive design
+- **Flexbox & Media Queries** – For modern responsiveness
+- **Flat Illustrations** – Clean, welcoming visual appeal
+- **Font Awesome** – For icons (used in some pages)
+
+---
+
+## 📱 Responsive Design
+
+- Fully mobile-friendly
+- Navigation adapts using Flexbox
+- Clear and readable layout on small screens
+
+---
+
+## 🔧 How to Use
+
+1. Clone or download this repository
+2. Open `index.html` in your browser
+3. To edit styles, modify `style.css` and the page-specific `.css` files
+
+---
+
+## 📁 Folder Structure
+
+/project-root
+├── index.html
+├── contact.html
+├── event.html
+├── location.html
+├── menu.html
+├── style.css
+├── contact.css
+├── event.css
+├── location.css
+├── menu.css
+└── images/ ← optional folder for visuals
+
+
+
+---
+
+## ✨ Credits
+
+- Designed and coded by **Jaouad Sarouti**
+- Illustrations generated with help from AI
+- Icons by [Font Awesome](https://fontawesome.com)
+
+---
+
