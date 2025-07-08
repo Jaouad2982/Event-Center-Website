@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 body {
+  padding: 20px 20px;
   font-family: Poppins, sans-serif;
   background: #faf9f6;
-  padding: 20px;
   color: #264653;
 }
 

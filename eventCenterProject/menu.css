@@ -23,14 +23,12 @@ nav ul li a:hover {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fef3dc;
-  margin: 0;
-  padding: 0;
   color: #1d3b42;
+  padding: 20px 20px;
 }
 
 header {
   text-align: center;
-  padding: 2rem;
   background-color: #ffe9b6;
 }
 
