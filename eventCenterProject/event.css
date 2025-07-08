@@ -16,10 +16,6 @@ body {
   margin: 0 auto;
 }
 
-nav {
-  margin-bottom: 13px;
-}
-
 nav ul {
   display: flex;
   justify-content: space-around;

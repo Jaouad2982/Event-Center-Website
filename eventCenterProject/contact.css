@@ -10,10 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-main nav {
-  margin-bottom: 13px;
-}
-
 main nav ul {
   display: flex;
   justify-content: space-around;
@@ -60,6 +56,10 @@ textarea {
   background-color: #f28a2e;
   color: #ffffff;
   padding: 2px;
+}
+
+footer {
+  margin-bottom: 35px;
 }
 
 @media (max-width: 768px) {

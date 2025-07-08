@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 100vh;
 }
 
 * {
@@ -15,10 +16,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.nav-bar {
-  margin-bottom: 14px;
-  padding: 10px;
-}
 main section nav ul {
   display: flex;
   justify-content: space-around;
@@ -61,6 +58,11 @@ main section nav ul li a:hover {
   border-radius: 100px;
   margin-top: 26px;
   margin-bottom: 50px;
+}
+
+.btn-main-header:hover {
+  background-color: #ffeab6;
+  transition: 0.2 ease-in-out;
 }
 
 /* .middle-colored-div {
@@ -122,8 +124,9 @@ p {
 .images-activities {
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  height: 230px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 6px;
 }
 
 .footer {
@@ -137,10 +140,10 @@ p {
   box-sizing: border-box;
 }
 
-.footer-content {
+/* .footer-content {
   max-width: 1000px;
   margin: 0 auto;
-}
+} */
 
 .footer-links {
   list-style: none;
@@ -200,16 +203,6 @@ p {
     width: 50%;
     height: auto;
   }
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer {
-    font-size: 13px;
-    padding: 20px;
-    order: 1;
-  }
 }
 
 @media (max-width: 768px) {
@@ -228,9 +221,5 @@ p {
 
   .nav-links li {
     border-bottom: 1px solid #2a9d8f;
-  }
-
-  body {
-    height: auto;
   }
 }

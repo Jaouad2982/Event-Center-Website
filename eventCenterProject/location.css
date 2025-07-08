@@ -50,6 +50,10 @@ h2 {
   margin: auto;
 }
 
+footer {
+  margin-bottom: 45px;
+}
+
 @media (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
