@@ -37,8 +37,12 @@ h2 {
 }
 
 .title {
-  margin-bottom: 14px;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
 }
 
 .map-container {
