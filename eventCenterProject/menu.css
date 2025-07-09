@@ -22,14 +22,13 @@ nav ul li a:hover {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fef3dc;
   color: #1d3b42;
   padding: 20px 20px;
 }
 
 header {
   text-align: center;
-  background-color: #ffe9b6;
+  margin-top: 20px;
 }
 
 .menu-section {
@@ -45,13 +44,18 @@ header {
   background-color: #fff8e1;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px #cbac38;
   text-align: center;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+table {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -70,7 +74,18 @@ header {
     font-size: 2.5rem;
   }
 }
+table {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
 
+table thead tr th,
+table tbody tr td {
+  padding: 14px;
+}
 @media (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
